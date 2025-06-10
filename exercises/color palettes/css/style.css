@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+#color-palette1 {
+    font-family: lobster; 
+    text-align: center;
+} 
+
+#color1 {
+    background-color: #07004D; 
+    color: white; 
+    text-align: center; 
+    font-family: lobster; 
+    padding: 24px
+} 
+
+#color2 {
+    background-color: #2D82B7; 
+    color: white; 
+    text-align: center; 
+    font-family: lobster; 
+    padding: 24px;
+} 
+
+#color3 {
+    background-color: #42E2B8; 
+    color:black; 
+    text-align: center; 
+    font-family: lobster; 
+    padding: 24px;
+}
