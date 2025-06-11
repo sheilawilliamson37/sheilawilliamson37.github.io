@@ -1,0 +1,95 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/ 
+
+.red {
+    display: inline-block; 
+    Background-color: red; 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(128, 10, 10); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+}
+
+.blue {
+    display: inline-block; 
+    Background-color: rgb(64, 92, 189); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(35, 25, 182); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+} 
+
+.green {
+   display: inline-block; 
+    Background-color: rgb(64, 189, 89); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(19, 118, 47); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px   
+} 
+.pink {
+    display: inline-block; 
+    Background-color: rgb(189, 64, 179); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(117, 18, 102); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+} 
+
+.purple {
+    display: inline-block; 
+    Background-color: rgb(122, 27, 177); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(39, 8, 58); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+} 
+
+.orange {
+    display: inline-block; 
+    Background-color: rgb(230, 149, 43); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(160, 89, 18); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+} 
+
+.yellow {
+    display: inline-block; 
+    Background-color: rgb(210, 201, 74); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(191, 173, 39); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+} 
+
+.black {
+    display: inline-block; 
+    Background-color: rgb(8, 8, 9); 
+    padding: 20px; 
+    border-width: 10px; 
+    border-color: rgb(103, 103, 107); 
+    border-style: ridge; 
+    height: 24px; 
+    width: 35px  
+}

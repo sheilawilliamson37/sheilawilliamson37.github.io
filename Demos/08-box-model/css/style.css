@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+div {
+    border: 5px inset aqua; 
+    margin: 24px 12px; 
+    padding: 24px; 
+    background-color:rgb(159, 254, 222) 
+    
+}
