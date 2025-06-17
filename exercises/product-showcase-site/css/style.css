@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+.single-column img {
+    width: 50px; 
+    margin-right: 50%; 
+    margin-left:50%; 
+} 
+
+h4 {
+    text-align: center; 
+} 
+
+.container-1 {
+    background-color: rgb(151, 68, 68);
+} 
+
+.container-2 {
+    background-color: pink
+} 
+
+.container-3 {
+    background-color: rgb(168, 62, 62)
+} 
+
+.container-4 {
+    background-color: rgb(152, 100, 152)
+} 
+
+.container-5 {
+    background-color: rgb(223, 201, 160)
+} 
+
+.container-6 {
+    background-color: rgb(201, 89, 89)
+}
