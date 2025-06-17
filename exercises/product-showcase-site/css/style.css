@@ -22,25 +22,26 @@ h4 {
 } 
 
 .container-2 {
-    background-color: pink
+    background-color: pink;
 } 
 
 .container-3 {
-    background-color: rgb(168, 62, 62)
+    background-color: rgb(168, 62, 62);
 } 
 
 .container-4 {
-    background-color: rgb(152, 100, 152)
+    background-color: rgb(152, 100, 152);
 } 
 
 .container-5 {
-    background-color: rgb(223, 201, 160)
+    background-color: rgb(223, 201, 160);
 } 
 
 .container-6 {
-    background-color: rgb(201, 89, 89)
+    background-color: rgb(201, 89, 89);
 } 
 
 p {
-    text-align: center;
+    text-align: center; 
+    display: inline-block; 
 }
