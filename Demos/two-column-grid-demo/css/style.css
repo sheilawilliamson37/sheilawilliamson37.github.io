@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+#grid-layout {
+    display: grid; 
+    grid-template-columns: 50% 50%;
+} 
+
+#main-content {
+    background-color: lightgreen;
+} 
+
+#sidebar-content h2 {
+    border-bottom: 2px solid green; 
+    padding-bottom: 8px;
+}
+
+#main-content {
+    background-color: lightgreen; 
+    padding: 48px;
+} 
+
+#sidebar-content ul li {
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+} 
+
+#sidebar-content ul a {
+    padding: 5px
+}
