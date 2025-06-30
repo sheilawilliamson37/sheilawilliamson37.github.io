@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images//hero.jpeg");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center; 
+    display: flex; 
+    justify-content:flex-start; 
+    align-items: center;
+} 
+
+#hero h1 {
+    font-size: 120px; 
+} 
+
+.hero-content {
+    text-align: center; 
+    margin-left: 240px; 
+    color: rgb(175, 170, 170);
+} 
+
+.hero-content a {
+    color: skyblue; 
+    text-decoration: none; 
+    background-color: rgb(86, 82, 82);
+    padding: 5px; 
+} 
+
+.gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px; 
+    background-color: rgb(246, 211, 217);  
+} 
+
+.gallery-content img {
+     height: 250px; 
+    flex: 1;
+    object-fit: cover; 
+    padding: 10px; 
+} 
+
+.gallery-content h3 {
+    text-align: center; 
+    margin-left: 490px; 
+    font-size: 40px;
+} 
+
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/kitchen\ tile.jpg"); 
+    background-size: cover; 
+    background-attachment: fixed;
+}
