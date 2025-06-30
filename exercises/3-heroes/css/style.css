@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+#hero-1 {
+    background-image: url("../images/chan-hoi-uj-w-v7OFT4-unsplash.jpg");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center; 
+    position: relative; 
+    margin-bottom: 100px;
+} 
+
+.hero-content {
+    position: absolute; 
+    top: 10%; 
+    left:15%; 
+    color: white;
+} 
+
+.hero-content a {
+    text-decoration: none; 
+    color: skyblue; 
+    font-size: 14px;   
+    background-color: #333333; 
+    color: skyblue; 
+    padding: 10px;
+} 
+
+#hero-2 {
+    background-image: url("../images/el-salanzo-YuNl5xei5wA-unsplash.jpg");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center; 
+    position: relative; 
+    margin-bottom: 100px;
+} 
+
+#hero-3 {
+    background-image: url("../images/jackson-hendry-eodA_8CTOFo-unsplash.jpg");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center; 
+    position: relative; 
+    margin-bottom: 100px;
+} 
+
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/gonzalo-facello-4BKpnV9SkbA-unsplash.jpg"); 
+    background-size: cover; 
+    background-attachment: fixed;
+}
