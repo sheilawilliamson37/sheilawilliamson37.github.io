@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+} 
+
+#navbar-01 {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+#navbar-01 a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    padding: 24px;
+} 
+
+#navbar-01 img {
+    width: 200px;
+}
+
+#navbar-01 #logo {
+    margin-right: auto;
+} 
+
+#navbar-01 .cta-button {
+    background-color: white; 
+    color: green; 
+    border-radius: 36px; 
+    padding: 16px 24px;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    margin-right: 24px; 
+    margin-left: 24px; 
+    min-width: 150px;
+} 
+
+#layout {
+    width: 800px; 
+    margin: 48px auto; 
+    font-size: 24px; 
+    height: 200vh; 
+} 
+
+#navbar-01 {
+    position: sticky; 
+    top: 0px; 
+
+} 
+
+#navbar-bottom {
+    background: linear-gradient(to bottom,rgb(50, 205, 91), rgb(61, 84, 74)); 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+#navbar-bottom a {
+    text-decoration: none; 
+    color: white; 
+    padding: 12px 36px;
+} 
+
+#navbar-1 {
+    position: sticky; 
+    top: 0px;   
+} 
+
+/* second page */ 
+
+#navbar-02 {
+    background: linear-gradient(to bottom, rgb(196, 208, 62), #946793);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+#navbar-02 a {
+    text-decoration: none; 
+    color: rgb(37, 37, 37); 
+    padding: 24px;
+} 
+
+#navbar-02 #logo {
+    margin-right: auto;
+} 
+
+#navbar-02 .cta-button {
+    background-color: white; 
+    color: #6d3e6d; 
+    border-radius: 36px; 
+    padding: 16px 24px;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    margin-right: 24px; 
+    margin-left: 24px; 
+    min-width: 150px;
+} 
+
+#layout {
+    width: 800px; 
+    margin: 48px auto; 
+    font-size: 24px; 
+    height: 200vh; 
+} 
+
+#navbar-02 {
+    position: sticky; 
+    top: 0px; 
+
+} 
+
+#navbar- {
+    position: sticky; 
+    top: 0px;   
+}  
+
+/* third page*/ 
+
+#navbar-03 {
+    background: rgb(223, 155, 29);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+#navbar-03 a {
+    text-decoration: none; 
+    color: rgb(25, 24, 24); 
+    padding: 24px;
+} 
+
+
+#navbar-bottom-3 .cta-button {
+    background-color: rgb(219, 214, 214); 
+    color: rgb(121, 35, 128); 
+    border-radius: 36px; 
+    padding: 16px 24px;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-align: center;
+    margin-right: 24px; 
+    margin-left: 24px; 
+    min-width: 150px; 
+} 
+
+#layout {
+    width: 800px; 
+    margin: 48px auto; 
+    font-size: 24px; 
+    height: 200vh; 
+} 
+
+#navbar-03 {
+    position: sticky; 
+    top: 0px; 
+
+} 
+
+#navbar-bottom-3 {
+    background: linear-gradient(to bottom,rgb(29, 29, 29), rgb(102, 48, 105)); 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+#navbar-bottom-3 a {
+    text-decoration: none; 
+    color: rgb(219, 214, 214); 
+    padding: 12px 36px;  
+} 
+
+#navbar-3 {
+    position: sticky; 
+    top: 0px;   
+} 
+
+#navbar-bottom-03 {
+    background: linear-gradient(to bottom,rgb(102, 48, 105), rgb(29, 29, 29)); 
+    display: flex; 
+    justify-content: space-between; 
+} 
+
+#navbar-bottom-03 a {
+    text-decoration: none; 
+    color: rgb(219, 214, 214); 
+    padding: 12px 36px;  
+} 
