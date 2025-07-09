@@ -439,16 +439,16 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */ 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 800px) {
     body {
-        background: green;
+        background: rgb(131, 133, 131);
     } 
 
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr; 
         grid-template-areas: 
             "header header header"
-            "navber navber navbar" 
+            "navbar navbar navbar" 
             "banner banner banner" 
             "card-1 card-2 card-3" 
             "aside blog blog" 
@@ -467,14 +467,13 @@ body {
     font-family: 'Montaga', serif;
     padding: 12px 24px;
     text-align: center; 
-    flex-wrap: wrap;
+    flex: 36px;
     } 
 
     #nav {
     background: radial-gradient(ellipse 150% 80%, #FFFFFF99 30%, #FFFFFF00 80%);
     display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; 
     }
 }
 
@@ -482,8 +481,7 @@ body {
 /***************************************************************/
 
 @media screen and (max-width: 800px) {
-
-    #banner-container, 
+ 
     #card-1, 
     #card-2,
     #card-3,
@@ -497,19 +495,27 @@ body {
     #grid-layout {
         grid-template-columns: 1fr; 
         grid-template-areas: 
-            "header header header"
-            "navber navber navbar" 
-            "banner banner banner" 
-            "card-1 card-2 card-3" 
-            "aside blog blog" 
-            "footer footer footer" 
-            "bottom bottom bottom"
-    } 
-
-    #side-bar, 
-    #shield-image, 
-    #search-button {
-        display: none;
+            "header" 
+            "header"
+            "header"
+            "navbar"
+            "navbar"
+            "navbar" 
+            "banner"
+            "banner"
+            "banner" 
+            "card-1" 
+            "card-2"
+            "card-3" 
+            "aside"
+            "blog"
+            "blog" 
+            "footer"
+            "footer"
+            "footer" 
+            "bottom"
+            "bottom"
+            "bottom"
     } 
 
     #header {
@@ -536,6 +542,18 @@ body {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
-    }
+    } 
+
+    #search-bar {
+    display: none;
+}
+
+#search-button {
+    display: none;
+}
+
+#shield-image:hover img {
+    display: none;
+}
 
 }
