@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/paw-prints.jpg);
+} 
+
+#navbar {
+    background-color:#b278dd;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+} 
+
+#navbar a {
+    text-decoration: none; 
+    color: #000000; 
+    padding: 24px;
+} 
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold; 
+    font-size: 28px;
+}  
+
+.dropdown {
+    position: relative; 
+    display: inline-block; 
+} 
+
+.menu {
+    cursor: pointer;
+} 
+
+.dropdown-content {
+    display: none; 
+    position: absolute; 
+    background-color:#d7b3f2; 
+    border: 1px solid #000000; 
+    min-width: 80px; 
+    box-shadow: 0px 8px 8px #000000; 
+} 
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block;
+} 
+
+.dropdown-content a:hover {
+    background-color: rgb(165, 118, 208);
+} 
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.card-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 300px;
+}
+
+.card {
+    background-color: white; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px #000000; 
+    max-width: 320px; 
+    text-align: center; 
+    overflow: hidden;
+} 
+
+.card-image {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text h2 {
+    margin-top: 0; 
+    color: #000000; 
+} 
+
+.card-text p {
+    color: #000000; 
+    font-size: 14px;
+} 
+
+.card-text a {
+    text-decoration: none; 
+    color:#000000; 
+    background-color: #b278dd; 
+    padding: 12px; 
+    border-radius: 24px; 
+    display: block; 
+    font-weight: bold; 
+}
