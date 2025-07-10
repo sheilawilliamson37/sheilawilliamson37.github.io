@@ -32,8 +32,9 @@ body {
     display: inline-block; 
 } 
 
-.menu {
+.menu:hover {
     cursor: pointer;
+    background-color: rgb(117, 75, 134);
 } 
 
 .dropdown-content {
@@ -53,9 +54,13 @@ body {
 } 
 
 .dropdown-content a:hover {
-    background-color: rgb(165, 118, 208);
+    background-color: rgb(122, 77, 163);
 } 
 
 .dropdown:hover .dropdown-content {
     display: block;
+} 
+
+#navbar a:hover {
+    background-color: rgb(122, 77, 163); 
 }
