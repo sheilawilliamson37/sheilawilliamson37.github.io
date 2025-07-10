@@ -19,6 +19,7 @@ body {
     text-decoration: none; 
     color: #000000; 
     padding: 24px;
+    font-size: 18px;
 } 
 
 #navbar #logo {
@@ -63,4 +64,21 @@ body {
 
 #navbar a:hover {
     background-color: rgb(122, 77, 163); 
+} 
+
+#header {
+    text-align: center; 
+    padding: 40px 20px; 
+    background-color: rgb(156, 109, 200);
+    color: #000000; 
+}
+
+#header h1 {
+    font-size: 56px; 
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 24px; 
+    color: #000000;
 }
