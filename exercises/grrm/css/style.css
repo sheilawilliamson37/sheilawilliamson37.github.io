@@ -534,7 +534,8 @@ body {
     font-family: 'Montaga', serif;
     padding: 12px 24px;
     text-align: center; 
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    flex: 10px;
     } 
 
     #nav {
