@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/piece-turf.jpg);
+  color: #000000;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Headings */
+.headline {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.subheadline {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.team-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Body text */
+.description p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Image */
+.event-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.button {
+  font-size: 18px; 
+  text-decoration: none;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 6px;
+  background-color: #b73c3a;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #6d130f;
+}
+
+
+/*************** MEDIA BREAK *********************************************/
+@media screen and (max-width: 768px) {
+  .headline {
+    font-size: 36px;
+  }
+
+  .subheadline {
+    font-size: 24px;
+  }
+
+  .team-heading {
+    font-size: 28px;
+  }
+
+  .description p {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
